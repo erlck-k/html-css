@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>Posicionamento fixo de tela</title>
     <style>
         body{
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+            color > image > repeat > position > size > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') no-repeat center center  fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 350px;
+            max-width: 700px;
             border-radius: 10px;
             box-shadow: 0px 0px 3px black;
             margin: auto;
@@ -26,9 +35,19 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
+        <blockquote>
+            "Minha namorada é a personificação da beleza. Desde o brilho dos seus olhos, que iluminam até os dias mais sombrios, até o sorriso que tem o poder de alegrar meu coração em um instante. Sua presença é como um raio de sol, trazendo calor e alegria à minha vida. Cada detalhe dela, desde o jeito que arruma o cabelo até a forma como ri, é simplesmente encantador. Ela não é apenas linda por fora, mas sua bondade e inteligência a tornam ainda mais especial. Sou grato por tê-la ao meu lado, e todos os dias me surpreendo com a sua beleza única e cativante."
+        </blockquote>
+
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem a dolorum rerum laborum, in nihil cum. Magnam eius vero aspernatur temporibus cumque ipsum soluta cum aliquid sint molestiae? Nobis, itaque.
         Esse aliquid enim, animi dignissimos odit voluptatem impedit sed atque consequuntur iste, ea ad labore placeat sequi? Dignissimos, fugit? Quibusdam quia incidunt ipsam deserunt omnis labore esse eligendi voluptatem libero.
         Commodi, doloribus harum repudiandae, accusantium illum autem voluptate nam asperiores ipsa sint repellendus enim ipsum fuga nesciunt, placeat totam error esse dolorem explicabo animi doloremque obcaecati iste atque! Ipsa, at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo porro distinctio maiores, officiis iusto sequi aliquid! Voluptatem dignissimos et consequuntur eaque eum, veritatis ex harum commodi, suscipit, deleniti cumque.
+        Repudiandae maiores similique praesentium perferendis odio officia, dolorem sequi debitis qui at dolorum libero quibusdam natus! Molestiae amet optio quod, blanditiis vero dicta beatae repudiandae voluptatum praesentium ullam unde ad.
+        Eligendi dolorum debitis deserunt ipsum sint repellat facilis laudantium cupiditate quidem, nemo enim! Quia, iusto quasi rem aut praesentium at cupiditate harum quae illo vitae sapiente itaque architecto ex consequatur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae minus harum nam. Non, exercitationem id. Modi dolore, aspernatur, quasi optio harum nihil commodi delectus ipsa consequuntur velit dolorem? Sint?
+        Fugit, error minus velit nostrum quos aliquid officiis recusandae eum libero eveniet quia quis reiciendis odio nulla ipsam dolores, inventore voluptas corporis aperiam ullam repellendus tempora! Excepturi dolor fuga libero!
+        Natus ut voluptatum sapiente earum eius facere impedit inventore voluptatibus odit, dolorem facilis voluptates, suscipit nesciunt fugit eveniet necessitatibus voluptatem delectus, molestias eaque quo dolores fugiat dolor totam! Quas, eius?</p>
     </main>
 </body>
 </html>
